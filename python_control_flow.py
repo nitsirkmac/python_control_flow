@@ -79,6 +79,7 @@ elif int(hyrs) >= 3:
 # 3. Print a message such as:
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
 
+"""
 a = input("Please enter the lengths of three sides of a triangle: a:")
 b = input("b:")
 c = input("c:")
@@ -90,6 +91,7 @@ elif a != b and a != c and b != c:
     triangle = 'scalene'
 
 print(f'A triangle with sides of {a}, {b}, and {c} is a {triangle} triangle')
+"""
 
 
 # exercise-05 Fibonacci sequence for first 50 terms
