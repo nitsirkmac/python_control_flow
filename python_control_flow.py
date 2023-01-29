@@ -107,7 +107,23 @@ print(f'A triangle with sides of {a}, {b}, and {c} is a {triangle} triangle')
 #      term: 5 / number: 5
 #      etc.
 # Hint: The next number is found by adding the two numbers before it
-
+"""
+fibonnaci = [0, 1, ]
+idx = 0
+while 0 <= idx <= 50:
+    if idx < 2:
+        fibseq = fibonnaci[idx]
+        print(f'term: {idx} / number: {fibseq}')
+        idx += 1
+    elif idx >=2:
+        fibseq = fibonnaci[idx -1] + fibonnaci[idx -2]
+        fibonnaci.append(fibseq)
+        print(f'term: {idx} / number: {fibseq}')
+        idx += 1
+    elif idx >= 50:
+        print('etc.')
+        break
+"""
 
 
 # exercise-06 What's the  Season?
