@@ -146,3 +146,28 @@ while 0 <= idx <= 50:
 # if input_month in ('Jan', 'Feb', 'Mar'):
 # After setting the likely season, you can use another if...elif...else statement to "adjust" if
 # the day number falls within a certain range.
+
+"""
+mmm = input("Enter the month of the season (Jan - Dec):")
+dd = input("Enter the day of the month:")
+
+if mmm in ('Jan', 'Feb', 'Mar'):
+    ssn = 'Winter'
+elif mmm in ('Apr', 'May', 'Jun'):
+    ssn = 'Spring'
+elif mmm in ('Jul', 'Aug', 'Sep'):
+    ssn = 'Summer'
+elif mmm in ('Oct', 'Nov', 'Dec'):
+    ssn = 'Fall'
+
+if mmm == 'Mar' and int(dd) >= 20:
+    ssn = 'Spring'
+elif mmm == 'Jun' and int(dd) >= 21:
+    ssn = 'Summer'
+elif mmm == 'Sep' and int(dd) >= 22:
+    ssn = 'Fall'
+elif mmm == 'Dec' and int(dd) >= 21:
+    ssn = 'Winter'
+
+print(f'{mmm} {dd} is in {ssn}')
+"""
